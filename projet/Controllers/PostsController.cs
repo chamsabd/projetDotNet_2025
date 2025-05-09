@@ -53,7 +53,7 @@ public class PostsController : ControllerBase
      if (userIdClaim == null)
         return Unauthorized();
     if (post.UserId !=  int.Parse(userIdClaim.Value))
-        return Unauthorized("Vous n'êtes pas autorisé à modifier ce post.");
+        return Unauthorized("Vous n'êtes pas autorisé à ajouter ce post.");
 
     int userId = int.Parse(userIdClaim.Value);
     post.UserId = userId;
@@ -77,7 +77,7 @@ public async Task<IActionResult> UpdatePost(int id, [FromBody] Post updatedPost)
     if (existingPost == null)
         return NotFound();
 
-    if (existingPost.UserId != userId)
+    if (existingPost.UserId != userId && updatedPost.UserId != userId)
         return Unauthorized("Vous n'êtes pas autorisé à modifier ce post.");
 
     // Continuer la mise à jour
