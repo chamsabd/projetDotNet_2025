@@ -1,0 +1,37 @@
+# Image de base pour ASP.NET (utilisé en production aussi)
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+USER $APP_UID
+WORKDIR /app
+EXPOSE 8080
+
+# Image de build pour .NET SDK
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+ARG BUILD_CONFIGURATION=Debug
+WORKDIR /src
+
+# Copie du fichier projet pour permettre le restore des dépendances
+COPY ["projet/projet.csproj", "projet/"]
+
+# Télécharge les dépendances via dotnet restore
+RUN dotnet restore "./projet/projet.csproj"
+
+# Copie du reste du code source dans le conteneur
+COPY . .
+
+# Construction du projet (mais sans le publier ici, juste pour la dev)
+WORKDIR "/src/projet"
+RUN dotnet build "./projet.csproj"-c  $BUILD_CONFIGURATION -o /app/build
+
+
+
+# Étape finale : travail avec les fichiers publiés et outils
+FROM base AS final
+WORKDIR /app
+
+# On ne publie pas ici en dev, on monte le code via un volume
+# Copier le build pour avoir une base fonctionnelle
+COPY --from=build /app/build .
+
+
+# Commande pour lancer l'application en mode watch
+CMD ["dotnet", "watch", "run", "--project", "/app/projet/projet.csproj"]

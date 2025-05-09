@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using projet.Models;
 using projet.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 
 namespace projet.Controllers
 {
@@ -14,7 +15,7 @@ public class UsersController : ControllerBase
     {
         _userService = userService;
     }
-
+[Authorize(Roles = "Admin")]
     // GET: api/users/with-roles
     [HttpGet("with-roles")]
     public async Task<IActionResult> GetAllUsersWithRoles()
@@ -22,7 +23,7 @@ public class UsersController : ControllerBase
         var users = await _userService.GetAllUsersWithRolesAsync();
         return Ok(users);
     }
-
+[Authorize(Roles = "Admin")]
     // GET: api/users/{id}/with-roles
     [HttpGet("{id}/with-roles")]
     public async Task<IActionResult> GetUserWithRoles(int id)
@@ -32,6 +33,7 @@ public class UsersController : ControllerBase
         return Ok(user);
     }
 
+[Authorize(Roles = "Admin")]
     // GET: api/users/with-posts
     [HttpGet("with-posts")]
     public async Task<IActionResult> GetAllUsersWithPosts()
@@ -39,7 +41,8 @@ public class UsersController : ControllerBase
         var users = await _userService.GetAllUsersWithPostsAsync();
         return Ok(users);
     }
-
+    
+[Authorize(Roles = "Admin")]
     // GET: api/users/{id}/with-posts
     [HttpGet("{id}/with-posts")]
     public async Task<IActionResult> GetUserWithPosts(int id)
@@ -56,7 +59,7 @@ public class UsersController : ControllerBase
         var createdUser = await _userService.CreateUserAsync(user);
         return CreatedAtAction(nameof(GetUserWithRoles), new { id = createdUser.Id }, createdUser);
     }
-
+[Authorize(Roles = "Admin")]
     // PUT: api/users/{id}
     [HttpPut("{id}")]
     public async Task<IActionResult> UpdateUser(int id, [FromBody] User updatedUser)
@@ -65,8 +68,7 @@ public class UsersController : ControllerBase
         if (user == null) return NotFound();
         return Ok(user);
     }
-
-    // DELETE: api/users/{id}
+[Authorize(Roles = "Admin")]
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteUser(int id)
     {

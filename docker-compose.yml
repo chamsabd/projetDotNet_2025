@@ -22,14 +22,15 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ConnectionStrings__DefaultConnection=Host=db;Database=postgres_db;Username=postgres_user;Password=password
-     
     networks:
       - app_network
-    command: dotnet watch run
-
-  
+    volumes:
+      - ./projet:/src/projet
+    command: dotnet watch run --project /src/projet/projet.csproj
+   
     depends_on:
       - db
+   
   
   pgadmin:
     image: dpage/pgadmin4

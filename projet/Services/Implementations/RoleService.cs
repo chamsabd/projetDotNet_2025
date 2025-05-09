@@ -81,5 +81,11 @@ namespace projet.Services.Implementations
 
         return true;
     }
+
+    public async Task<bool> RoleExistsAsync(string roleName)
+    {
+        var role = await _context.Roles.FirstOrDefaultAsync(r => r.Name == roleName);
+        return role != null;
+    }
 }
 }

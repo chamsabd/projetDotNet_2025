@@ -11,8 +11,8 @@ using projet.Data;
 namespace projet.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250509083537_Initial")]
-    partial class Initial
+    [Migration("20250509183159_Initiak")]
+    partial class Initiak
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -5,7 +5,7 @@
 namespace projet.Migrations
 {
     /// <inheritdoc />
-    public partial class Initialk : Migration
+    public partial class Initiak : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

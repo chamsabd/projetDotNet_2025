@@ -11,6 +11,7 @@ namespace projet.Services.Interfaces
         Task<bool> DeleteRoleAsync(int id);
         Task<bool> AssignRoleToUserAsync(int userId, int roleId);
         Task<bool> RemoveRoleFromUserAsync(int userId, int roleId);
+          Task<bool> RoleExistsAsync(string roleName);
     }
 
 }

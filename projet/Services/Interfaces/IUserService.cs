@@ -11,6 +11,7 @@ namespace projet.Services.Interfaces
         Task<User> CreateUserAsync(User user);
         Task<User?> UpdateUserAsync(int id, User updatedUser);
         Task<bool> DeleteUserAsync(int id);
+        Task<User?> GetUserByEmailAsync(string username);
     }
 
 }

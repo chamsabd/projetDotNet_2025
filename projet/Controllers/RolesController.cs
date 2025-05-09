@@ -2,10 +2,12 @@
 using projet.Models;
 using projet.Services.Interfaces;
 
+using Microsoft.AspNetCore.Authorization;
 namespace projet.Controllers
 {
   [ApiController]
 [Route("api/roles")]
+[Authorize(Roles = "Admin")]
 public class RolesController : ControllerBase
 {
     private readonly IRoleService _roleService;
