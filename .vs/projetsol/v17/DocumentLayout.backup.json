@@ -1,0 +1,231 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC95A5B-EE5C-4C42-AFC9-1CA10AFF5D6C}|projet\\projet.csproj|d:\\data\\eniso_s22025\\docker\\projetsol\\projet\\extensions\\migrationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC95A5B-EE5C-4C42-AFC9-1CA10AFF5D6C}|projet\\projet.csproj|solutionrelative:projet\\extensions\\migrationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC95A5B-EE5C-4C42-AFC9-1CA10AFF5D6C}|projet\\projet.csproj|d:\\data\\eniso_s22025\\docker\\projetsol\\projet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC95A5B-EE5C-4C42-AFC9-1CA10AFF5D6C}|projet\\projet.csproj|solutionrelative:projet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC95A5B-EE5C-4C42-AFC9-1CA10AFF5D6C}|projet\\projet.csproj|d:\\data\\eniso_s22025\\docker\\projetsol\\projet\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC95A5B-EE5C-4C42-AFC9-1CA10AFF5D6C}|projet\\projet.csproj|solutionrelative:projet\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC95A5B-EE5C-4C42-AFC9-1CA10AFF5D6C}|projet\\projet.csproj|d:\\data\\eniso_s22025\\docker\\projetsol\\projet\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC95A5B-EE5C-4C42-AFC9-1CA10AFF5D6C}|projet\\projet.csproj|solutionrelative:projet\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|d:\\data\\eniso_s22025\\docker\\projetsol\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC95A5B-EE5C-4C42-AFC9-1CA10AFF5D6C}|projet\\projet.csproj|d:\\data\\eniso_s22025\\docker\\projetsol\\projet\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6DC95A5B-EE5C-4C42-AFC9-1CA10AFF5D6C}|projet\\projet.csproj|solutionrelative:projet\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC95A5B-EE5C-4C42-AFC9-1CA10AFF5D6C}|projet\\projet.csproj|d:\\data\\eniso_s22025\\docker\\projetsol\\projet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6DC95A5B-EE5C-4C42-AFC9-1CA10AFF5D6C}|projet\\projet.csproj|solutionrelative:projet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC95A5B-EE5C-4C42-AFC9-1CA10AFF5D6C}|projet\\projet.csproj|d:\\data\\eniso_s22025\\docker\\projetsol\\projet\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6DC95A5B-EE5C-4C42-AFC9-1CA10AFF5D6C}|projet\\projet.csproj|solutionrelative:projet\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC95A5B-EE5C-4C42-AFC9-1CA10AFF5D6C}|projet\\projet.csproj|d:\\data\\eniso_s22025\\docker\\projetsol\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6DC95A5B-EE5C-4C42-AFC9-1CA10AFF5D6C}|projet\\projet.csproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC95A5B-EE5C-4C42-AFC9-1CA10AFF5D6C}|projet\\projet.csproj|d:\\data\\eniso_s22025\\docker\\projetsol\\projet\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6DC95A5B-EE5C-4C42-AFC9-1CA10AFF5D6C}|projet\\projet.csproj|solutionrelative:projet\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC95A5B-EE5C-4C42-AFC9-1CA10AFF5D6C}|projet\\projet.csproj|d:\\data\\eniso_s22025\\docker\\projetsol\\projet\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC95A5B-EE5C-4C42-AFC9-1CA10AFF5D6C}|projet\\projet.csproj|solutionrelative:projet\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|d:\\data\\eniso_s22025\\docker\\projetsol\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|d:\\data\\eniso_s22025\\docker\\projetsol\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\projet\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "projet\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\projet\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "projet\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T08:23:09.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\projet\\Program.cs",
+              "RelativeDocumentMoniker": "projet\\Program.cs",
+              "ToolTip": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\projet\\Program.cs",
+              "RelativeToolTip": "projet\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T08:00:06.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MigrationExtension.cs",
+              "DocumentMoniker": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\projet\\extensions\\MigrationExtension.cs",
+              "RelativeDocumentMoniker": "projet\\extensions\\MigrationExtension.cs",
+              "ToolTip": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\projet\\extensions\\MigrationExtension.cs",
+              "RelativeToolTip": "projet\\extensions\\MigrationExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T07:58:11.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\projet\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "projet\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\projet\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "projet\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T20:38:11.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\projet\\appsettings.json",
+              "RelativeDocumentMoniker": "projet\\appsettings.json",
+              "ToolTip": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\projet\\appsettings.json",
+              "RelativeToolTip": "projet\\appsettings.json",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-03T19:01:53.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-05-03T19:06:51.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\projet\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "projet\\appsettings.Development.json",
+              "ToolTip": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\projet\\appsettings.Development.json",
+              "RelativeToolTip": "projet\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-03T20:09:45.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-03T11:39:07.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\projet\\Dockerfile",
+              "RelativeDocumentMoniker": "projet\\Dockerfile",
+              "ToolTip": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\projet\\Dockerfile",
+              "RelativeToolTip": "projet\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-03T19:06:48.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\projet\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "projet\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\projet\\Properties\\launchSettings.json",
+              "RelativeToolTip": "projet\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-03T19:37:20.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\projet\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "projet\\Models\\Role.cs",
+              "ToolTip": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\projet\\Models\\Role.cs",
+              "RelativeToolTip": "projet\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T18:11:50.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\launchSettings.json",
+              "RelativeDocumentMoniker": "launchSettings.json",
+              "ToolTip": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\launchSettings.json",
+              "RelativeToolTip": "launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-03T11:20:44.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "D:\\DATA\\Eniso_S22025\\Docker\\projetsol\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-05-03T11:39:12.238Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

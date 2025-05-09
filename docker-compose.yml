@@ -1,0 +1,50 @@
+services:
+  db:
+    image: postgres
+    container_name: userRoleDB
+    environment:
+      POSTGRES_DB: postgres_db
+      POSTGRES_USER: postgres_user
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - app_network
+  api:
+    build:
+      context: .
+      dockerfile: projet/Dockerfile
+    ports:
+      - "8080:8080"
+    
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=db;Database=postgres_db;Username=postgres_user;Password=password
+     
+    networks:
+      - app_network
+    command: dotnet watch run
+
+  
+    depends_on:
+      - db
+  
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5000:80"
+    depends_on:
+      - db
+    networks:
+      - app_network
+networks:
+  app_network:
+    driver: bridge
+volumes:
+  postgres_data:
