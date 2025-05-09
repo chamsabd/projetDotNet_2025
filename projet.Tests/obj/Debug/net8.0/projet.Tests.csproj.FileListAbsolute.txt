@@ -1,0 +1,9 @@
+D:\DATA\Eniso_S22025\Docker\projetsol\projet.Tests\bin\Debug\net8.0\.msCoverageSourceRootsMapping_projet.Tests
+D:\DATA\Eniso_S22025\Docker\projetsol\projet.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_projet.Tests
+D:\DATA\Eniso_S22025\Docker\projetsol\projet.Tests\obj\Debug\net8.0\projet.Tests.csproj.AssemblyReference.cache
+D:\DATA\Eniso_S22025\Docker\projetsol\projet.Tests\obj\Debug\net8.0\MvcTestingAppManifest.json
+D:\DATA\Eniso_S22025\Docker\projetsol\projet.Tests\obj\Debug\net8.0\projet.Tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATA\Eniso_S22025\Docker\projetsol\projet.Tests\obj\Debug\net8.0\projet.Tests.AssemblyInfoInputs.cache
+D:\DATA\Eniso_S22025\Docker\projetsol\projet.Tests\obj\Debug\net8.0\projet.Tests.AssemblyInfo.cs
+D:\DATA\Eniso_S22025\Docker\projetsol\projet.Tests\obj\Debug\net8.0\projet.Tests.csproj.CoreCompileInputs.cache
+D:\DATA\Eniso_S22025\Docker\projetsol\projet.Tests\obj\Debug\net8.0\projet.Tests.sourcelink.json

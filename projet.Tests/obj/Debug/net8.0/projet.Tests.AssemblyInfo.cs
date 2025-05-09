@@ -10,15 +10,13 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("5ed75c1a-ffd7-42f2-ae0c-92b9339928ad")]
-[assembly: System.Reflection.AssemblyCompanyAttribute("projet")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("projet.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c0fe4930a381d5fef5bd314597cebafcc6d5553")]
-[assembly: System.Reflection.AssemblyProductAttribute("projet")]
-[assembly: System.Reflection.AssemblyTitleAttribute("projet")]
+[assembly: System.Reflection.AssemblyProductAttribute("projet.Tests")]
+[assembly: System.Reflection.AssemblyTitleAttribute("projet.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("projet.Tests")]
 
 // Généré par la classe MSBuild WriteCodeFragment.
 
